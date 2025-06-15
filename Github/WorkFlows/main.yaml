@@ -25,4 +25,4 @@ jobs:
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
-          surge ./ --domain ParcialFelix.surge.sh --token $SURGE_TOKEN
+          surge ./ --domain parcialfelix.surge.sh --token $SURGE_TOKEN
